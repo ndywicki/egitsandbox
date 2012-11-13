@@ -13,5 +13,9 @@ public class App {
 	public static boolean isOk() {
 		return true;
 	}
+	
+	public static String getSomeText() {
+		return "kikou";
+	}
 
 }
