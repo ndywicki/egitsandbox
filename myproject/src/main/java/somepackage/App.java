@@ -9,5 +9,9 @@ public class App {
 		// TODO Auto-generated method stub
 
 	}
+	
+	public static boolean isOk() {
+		return true;
+	}
 
 }

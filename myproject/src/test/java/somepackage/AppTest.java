@@ -1,13 +1,14 @@
 package somepackage;
 
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
 public class AppTest {
 
-	/**
-	 * @param args
-	 */
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+	@Test
+	public void shouldReturnOk() {
+		assertEquals(true, App.isOk());
 	}
 
 }
